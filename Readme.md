@@ -1,21 +1,27 @@
-# ✋ Gesture Control & Sign Language System
+# ✋ AI Gesture Control & Sign Language System
 
-A real-time computer vision project that lets you control your laptop using hand gestures and also converts sign language into speech.
-
----
-
-## 🚀 Features
-- Move mouse using index finger
-- Click using pinch gesture
-- Drag using long pinch
-- Right-click using double pinch
-- Scroll using two fingers
-- Sign language recognition (HELLO, YES, NO)
-- Text-to-speech output
+🚀 Real-time hand gesture system for:
+- Cursor control
+- Sign language → speech conversion
 
 ---
 
-## 🧠 Tech Used
+## 🎥 Demo
+(Add your video/gif here later)
+
+---
+
+## ✨ Features
+- 🖱️ Move cursor using index finger
+- 👌 Pinch → Click
+- ✊ Hold pinch → Drag
+- ✌️ Two fingers → Scroll
+- 🗣️ Sign language → Speech (HELLO, YES, NO)
+- ⚡ Real-time (21–35 FPS)
+
+---
+
+## 🧠 Tech Stack
 - Python
 - OpenCV
 - MediaPipe
@@ -24,9 +30,8 @@ A real-time computer vision project that lets you control your laptop using hand
 
 ---
 
-## 📦 Installation
+## ⚙️ How to Run
 
-1. Clone this repo:
 ```bash
-git clone https://github.com/your-username/gesture-control-system.git
-cd gesture-control-system
+pip install -r requirements.txt
+python main.py
